@@ -1,16 +1,23 @@
-Wheater App with NodeJs
-V.1.0 - Created the app. - Done!
-V.2.0 - Added css. - Done!
-V.3.0 - Error handling. - Done!
-V.3.1 - Axios. - Done!
-V.3.2 - Better css. - Done!
-V.4.0 - Implemented API. - Done!
-V.5.0 - Final Updates. - Done!
+# Desafio Técnico
+Desafio Técnico - Manual do Utilizador
 
-Manual do utilizador:
+# Descrição
+Aplicação de meteorologia criada de acordo com o desafio técnico proposto.
 
-- Para poder utilizar a aplicação, o utilizador deve, no diretório onde se encontra a mesma, executar o seguinte código: "npm install", para instalar os pacotes necessários ao funcionamento da aplicação. 
+# Instalação e Configuração
+- Para poder utilizar a aplicação, o utilizador deve, no diretório onde se encontra a mesma, executar o seguinte código:`npm install`, para instalar os pacotes necessários ao funcionamento da aplicação. 
 
-- Para utilizar a versão de website o utilizador deve instanciar, a partir de um terminal, o seguinte código: "nodemon app.js", após iniciar o servidor o utilizador terá que ir a um navegador de internet e digitar o seguinte url: "localhost:8081" a partir do qual poderá utilizar a versão do website da aplicação.
+- Para utilizar a versão de website o utilizador deve instanciar, a partir de um terminal, o seguinte código: `npm start`, após iniciar o servidor o utilizador terá que ir a um navegador de internet e digitar o seguinte url: http://localhost:8081 a partir do qual poderá utilizar a versão do website da aplicação.
 
-- Para utilizar a api o utilizador deve instanciar, a partir de um terminal, o seguinte código: "nodemon api.js", após iniciar o servidor o utilizador terá que instanciar um programa que permita analisar e testar APIs (por exemplo, Insomnia, Postman), após iniciar o programa deverá digitar o seguinte url: "localhost:8080". Após digitar o url deverá escolher fazer um post, e ao fazer o request terá que enviar, a partir de um "Form URL Encoded" o nome da cidade como valor e o nome desse valor deverá ser "city".
+- Para utilizar a aplicação o utilizador deve inserir as cidades das quais pretende conhecer a meteorologia e carregar no botão `Procurar`. Caso o utilizador queira inserir mais que 3 cidades deve carregar no botão `Adicionar Cidade`, consequentemente se quiser apagar as cidades a mais o utilizador deverá carregar no botão `Apagar` referente à entrada que quiser apagar. Para ordenar a tabela basta carregar por cima da coluna pela qual pretende ordenar a mesma.
+
+# Inicialização
+
+```sh
+npm start
+```
+
+# Rotas
+
+-Após a inicialização da aplicação é necessário aceder ao seguinte link: https://localhost:8081;
+
