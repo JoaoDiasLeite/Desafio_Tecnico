@@ -1,0 +1,46 @@
+{
+  "name": "desafio_go_contact",
+  "version": "1.0.0",
+  "description": "Desafio técnico",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "chart.js": "^3.5.1",
+    "config": "^3.3.6",
+    "d3": "^3.5.17",
+    "d3-node": "^2.2.3",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
+    "fs": "0.0.1-security",
+    "http": "^0.0.1-security",
+    "mongodb": "^2.2.16",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.12",
+    "openweather-apis": "^4.4.1",
+    "path": "^0.12.7",
+    "plotly": "^1.0.6",
+    "request": "^2.88.2",
+    "sequelize": "^6.5.1",
+    "sharp": "^0.29.1",
+    "unirest": "^0.6.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoDiasLeite/WeatherApp.git"
+  },
+  "author": "João Leite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoDiasLeite/WeatherApp/issues"
+  },
+  "homepage": "https://github.com/JoaoDiasLeite/WeatherApp#readme"
+}

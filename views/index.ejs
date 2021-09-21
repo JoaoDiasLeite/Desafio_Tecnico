@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="/css/main.css" type="text/css">
+<h1 class="form-title">Escolha uma cidade</h1>
+<div class="form__group field">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<div class="container1">
+  <div class="container1">
+    <form class="form" id="form" action="/" method="POST">
+      <button class="add_form_field">Adicionar Cidade &nbsp; 
+        
+      </button>
+      <button class="learn-more" href="/">Procurar</button>
+
+      <div>
+        <input type="input" class="form__field" name="city" placeholder="Introduza o nome da cidade... "required />
+        <br/>
+        <input type="input" class="form__field" name="city" placeholder="Introduza o nome da cidade... "required />
+        <br/>
+        <input type="input" class="form__field" name="city" placeholder="Introduza o nome da cidade... "required />
+        
+  
+        
+        
+  </div>
+ 
+  <script type='text/javascript'>
+    $(document).ready(function() {
+    var max_fields = 10;
+    var wrapper = $(".form");
+    var add_button = $(".add_form_field");
+
+    var x = 1;
+    $(add_button).click(function(e) {
+        e.preventDefault();
+        if (x < max_fields) {
+            x++;
+            $(wrapper).append('<div><input type="text" class="form__field"  name="city" placeholder="Introduza o nome da cidade... "required/><a href="#" class="delete">Apagar</a></div>'); //add input box
+        } else {
+            alert('You Reached the limits')
+        }
+    });
+
+    $(wrapper).on("click", ".delete", function(e) {
+        e.preventDefault();
+        $(this).parent('div').remove();
+        x--;
+    })
+});
+</script>
